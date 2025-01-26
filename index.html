@@ -16,13 +16,38 @@
 
         <nav>
             <img src="logo3.jpg" width="50px">
-           <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-bars" onclick="showSideBar()"></i>
         </nav>
 
 
+        <div class="humbeger_show" id="humberShow">
+            <i class="fa-solid fa-xmark" onclick="hideHumberShow()"></i>
+            <div class="side_bar">
+
+            </div>
+        </div>
 
 
     </div>
+
+
+    <script>
+        // function to show side bar page when the humber is click 
+const humberShow = document.getElementById("humberShow");
+function showSideBar(){
+    humberShow.style.display = "flex";
+}
+
+// function to hide the side bar when the hide humber is click
+
+function hideHumberShow(){
+    humberShow.style.display = "none";
+}
+
+
+
+
+    </script>
     
 </body>
 </html>
