@@ -61,7 +61,7 @@ nav i{
 .side_bar{
     width: 230px;
     min-width: 200px;
-    height: 100vh;
+    height: 100%;
     min-height: 100vh;
     background-color: rgb(29, 29, 248);
 }
@@ -74,6 +74,6 @@ nav i{
 @media (min-width:320px) and (max-width:600px) {
     .side_bar{
         width: 200px;
-        height: 100vh;
+        height: 100%;
     }
 }
