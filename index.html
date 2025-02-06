@@ -3,549 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactsaveonline.com</title>
+    <title>Online</title>
     <script src="https://kit.fontawesome.com/41d51bfab0.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-   <script src="action.js" type="text/javascript" defer></script>
+
 </head>
 <body>
+
+  <div class="container">
+    <div class="card">
+
+      <div class="box">
+        <div class="pic">
+          <img src="blood.jpg">
+        </div>
+        <div class="content">
+          <h3>John</h3>
+          <h6>His a resident pastor</h6>
+        </div>
+      </div>
+
+      
+      <div class="box">
+        <div class="pic">
+          <img src="IMG_E0704.JPG">
+        </div>
+        <div class="content">
+          <h3>John</h3>
+          <h6>His a resident pastor</h6>
+        </div>
+      </div>
+
+      
+      <div class="box">
+        <div class="pic">
+          <img src="IMG_5708main.jpg">
+        </div>
+        <div class="content">
+          <h3>John</h3>
+          <h6>His a resident pastor</h6>
+        </div>
+      </div>
+
+      
+
+      
+
+
+
     
-  <!--main content of the page below-->
-<div class="main-content" id="mineContent">
-
-<div class="head-nav" id="topHeader">
-  <i class="fa-solid fa-bars" onclick="smallBar()"></i>
-  <i class="fa-solid fa-circle-half-stroke" onclick="lightMode()"></i>
-</div>
-
-  <!-- side bar panel below -->
-  <div class="side-bar-panel"  id="navList">
-
-    <!-- navigation bar below -->
-    <nav>
-      <ul>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-plus"></i></i>Add</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-gear"></i></i>Edit</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-users"></i></i>Contacts</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-phone"></i>Call</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-message"></i>Message</a></li>
-        
-        <i class="fa-solid fa-right-to-bracket"></i>
-      </ul>
-    </nav>
-
-  </div>
-
-  <div class="information-section" id="information">
-
-    <div class="ant">
-      <div class="inner"></div>
-      <h6>Loading....</h6>
     </div>
-    
   </div>
-
-</div>
-
-
-
-
-
-
-
-
-<script>
-const sideBarPanel = document.querySelector(".side-bar-panel");
-const headNav = document.getElementById("topHeader");
-const information = document.getElementById("information");
-const mineContent = document.getElementById("mineContent");
-const navList = document.getElementById("navList");
-
-function smallBar(){
-  sideBarPanel.classList.toggle('closeNavToSmall');
-}
-
-const links = document.querySelectorAll(".active");
-links.forEach(link =>{
-  link.addEventListener('click', ()=>{
-    document.querySelector('.actives')?.classList.remove('actives');
-    link.classList.add('actives');
-  });
-});
-
-
-function lightMode(){
-  headNav.style.backgroundColor = "lightGrey";
-  navList.style.backgroundColor = "white";
-  information.style.backgroundColor = "white";
-  mineContent.style.backgroundColor = "lightGrey";
-}
-
-
-
-</script>
-
-
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactsaveonline.com</title>
-    <script src="https://kit.fontawesome.com/41d51bfab0.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-   <script src="action.js" type="text/javascript" defer></script>
-</head>
-<body>
     
-  <!--main content of the page below-->
-<div class="main-content" id="mineContent">
-
-<div class="head-nav" id="topHeader">
-  <i class="fa-solid fa-bars" onclick="smallBar()"></i>
-  <i class="fa-solid fa-circle-half-stroke" onclick="lightMode()"></i>
-</div>
-
-  <!-- side bar panel below -->
-  <div class="side-bar-panel"  id="navList">
-
-    <!-- navigation bar below -->
-    <nav>
-      <ul>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-plus"></i></i>Add</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-gear"></i></i>Edit</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-users"></i></i>Contacts</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-phone"></i>Call</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-message"></i>Message</a></li>
-        
-        <i class="fa-solid fa-right-to-bracket"></i>
-      </ul>
-    </nav>
-
-  </div>
-
-  <div class="information-section" id="information">
-
-    <div class="ant">
-      <div class="inner"></div>
-      <h6>Loading....</h6>
-    </div>
-    
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
-<script>
-const sideBarPanel = document.querySelector(".side-bar-panel");
-const headNav = document.getElementById("topHeader");
-const information = document.getElementById("information");
-const mineContent = document.getElementById("mineContent");
-const navList = document.getElementById("navList");
-
-function smallBar(){
-  sideBarPanel.classList.toggle('closeNavToSmall');
-}
-
-const links = document.querySelectorAll(".active");
-links.forEach(link =>{
-  link.addEventListener('click', ()=>{
-    document.querySelector('.actives')?.classList.remove('actives');
-    link.classList.add('actives');
-  });
-});
-
-
-function lightMode(){
-  headNav.style.backgroundColor = "lightGrey";
-  navList.style.backgroundColor = "white";
-  information.style.backgroundColor = "white";
-  mineContent.style.backgroundColor = "lightGrey";
-}
-
-
-
-</script>
-
-
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactsaveonline.com</title>
-    <script src="https://kit.fontawesome.com/41d51bfab0.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-   <script src="action.js" type="text/javascript" defer></script>
-</head>
-<body>
-    
-  <!--main content of the page below-->
-<div class="main-content" id="mineContent">
-
-<div class="head-nav" id="topHeader">
-  <i class="fa-solid fa-bars" onclick="smallBar()"></i>
-  <i class="fa-solid fa-circle-half-stroke" onclick="lightMode()"></i>
-</div>
-
-  <!-- side bar panel below -->
-  <div class="side-bar-panel"  id="navList">
-
-    <!-- navigation bar below -->
-    <nav>
-      <ul>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-plus"></i></i>Add</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-gear"></i></i>Edit</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-users"></i></i>Contacts</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-phone"></i>Call</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-message"></i>Message</a></li>
-        
-        <i class="fa-solid fa-right-to-bracket"></i>
-      </ul>
-    </nav>
-
-  </div>
-
-  <div class="information-section" id="information">
-
-    <div class="ant">
-      <div class="inner"></div>
-      <h6>Loading....</h6>
-    </div>
-    
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
-<script>
-const sideBarPanel = document.querySelector(".side-bar-panel");
-const headNav = document.getElementById("topHeader");
-const information = document.getElementById("information");
-const mineContent = document.getElementById("mineContent");
-const navList = document.getElementById("navList");
-
-function smallBar(){
-  sideBarPanel.classList.toggle('closeNavToSmall');
-}
-
-const links = document.querySelectorAll(".active");
-links.forEach(link =>{
-  link.addEventListener('click', ()=>{
-    document.querySelector('.actives')?.classList.remove('actives');
-    link.classList.add('actives');
-  });
-});
-
-
-function lightMode(){
-  headNav.style.backgroundColor = "lightGrey";
-  navList.style.backgroundColor = "white";
-  information.style.backgroundColor = "white";
-  mineContent.style.backgroundColor = "lightGrey";
-}
-
-
-
-</script>
-
-
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactsaveonline.com</title>
-    <script src="https://kit.fontawesome.com/41d51bfab0.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-   <script src="action.js" type="text/javascript" defer></script>
-</head>
-<body>
-    
-  <!--main content of the page below-->
-<div class="main-content" id="mineContent">
-
-<div class="head-nav" id="topHeader">
-  <i class="fa-solid fa-bars" onclick="smallBar()"></i>
-  <i class="fa-solid fa-circle-half-stroke" onclick="lightMode()"></i>
-</div>
-
-  <!-- side bar panel below -->
-  <div class="side-bar-panel"  id="navList">
-
-    <!-- navigation bar below -->
-    <nav>
-      <ul>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-plus"></i></i>Add</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-gear"></i></i>Edit</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-users"></i></i>Contacts</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-phone"></i>Call</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-message"></i>Message</a></li>
-        
-        <i class="fa-solid fa-right-to-bracket"></i>
-      </ul>
-    </nav>
-
-  </div>
-
-  <div class="information-section" id="information">
-
-    <div class="ant">
-      <div class="inner"></div>
-      <h6>Loading....</h6>
-    </div>
-    
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
-<script>
-const sideBarPanel = document.querySelector(".side-bar-panel");
-const headNav = document.getElementById("topHeader");
-const information = document.getElementById("information");
-const mineContent = document.getElementById("mineContent");
-const navList = document.getElementById("navList");
-
-function smallBar(){
-  sideBarPanel.classList.toggle('closeNavToSmall');
-}
-
-const links = document.querySelectorAll(".active");
-links.forEach(link =>{
-  link.addEventListener('click', ()=>{
-    document.querySelector('.actives')?.classList.remove('actives');
-    link.classList.add('actives');
-  });
-});
-
-
-function lightMode(){
-  headNav.style.backgroundColor = "lightGrey";
-  navList.style.backgroundColor = "white";
-  information.style.backgroundColor = "white";
-  mineContent.style.backgroundColor = "lightGrey";
-}
-
-
-
-</script>
-
-
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactsaveonline.com</title>
-    <script src="https://kit.fontawesome.com/41d51bfab0.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-   <script src="action.js" type="text/javascript" defer></script>
-</head>
-<body>
-    
-  <!--main content of the page below-->
-<div class="main-content" id="mineContent">
-
-<div class="head-nav" id="topHeader">
-  <i class="fa-solid fa-bars" onclick="smallBar()"></i>
-  <i class="fa-solid fa-circle-half-stroke" onclick="lightMode()"></i>
-</div>
-
-  <!-- side bar panel below -->
-  <div class="side-bar-panel"  id="navList">
-
-    <!-- navigation bar below -->
-    <nav>
-      <ul>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-plus"></i></i>Add</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-gear"></i></i>Edit</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-users"></i></i>Contacts</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-phone"></i>Call</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-message"></i>Message</a></li>
-        
-        <i class="fa-solid fa-right-to-bracket"></i>
-      </ul>
-    </nav>
-
-  </div>
-
-  <div class="information-section" id="information">
-
-    <div class="ant">
-      <div class="inner"></div>
-      <h6>Loading....</h6>
-    </div>
-    
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
-<script>
-const sideBarPanel = document.querySelector(".side-bar-panel");
-const headNav = document.getElementById("topHeader");
-const information = document.getElementById("information");
-const mineContent = document.getElementById("mineContent");
-const navList = document.getElementById("navList");
-
-function smallBar(){
-  sideBarPanel.classList.toggle('closeNavToSmall');
-}
-
-const links = document.querySelectorAll(".active");
-links.forEach(link =>{
-  link.addEventListener('click', ()=>{
-    document.querySelector('.actives')?.classList.remove('actives');
-    link.classList.add('actives');
-  });
-});
-
-
-function lightMode(){
-  headNav.style.backgroundColor = "lightGrey";
-  navList.style.backgroundColor = "white";
-  information.style.backgroundColor = "white";
-  mineContent.style.backgroundColor = "lightGrey";
-}
-
-
-
-</script>
-
-
-
-</body>
-</html><!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contactsaveonline.com</title>
-    <script src="https://kit.fontawesome.com/41d51bfab0.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-   <script src="action.js" type="text/javascript" defer></script>
-</head>
-<body>
-    
-  <!--main content of the page below-->
-<div class="main-content" id="mineContent">
-
-<div class="head-nav" id="topHeader">
-  <i class="fa-solid fa-bars" onclick="smallBar()"></i>
-  <i class="fa-solid fa-circle-half-stroke" onclick="lightMode()"></i>
-</div>
-
-  <!-- side bar panel below -->
-  <div class="side-bar-panel"  id="navList">
-
-    <!-- navigation bar below -->
-    <nav>
-      <ul>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-plus"></i></i>Add</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-user-gear"></i></i>Edit</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-users"></i></i>Contacts</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-phone"></i>Call</a></li>
-        <li><a href="#addContact" class="active"><i class="fa-solid fa-message"></i>Message</a></li>
-        
-        <i class="fa-solid fa-right-to-bracket"></i>
-      </ul>
-    </nav>
-
-  </div>
-
-  <div class="information-section" id="information">
-
-    <div class="ant">
-      <div class="inner"></div>
-      <h6>Loading....</h6>
-    </div>
-    
-  </div>
-
-</div>
-
-
-
-
-
-
-
-
-<script>
-const sideBarPanel = document.querySelector(".side-bar-panel");
-const headNav = document.getElementById("topHeader");
-const information = document.getElementById("information");
-const mineContent = document.getElementById("mineContent");
-const navList = document.getElementById("navList");
-
-function smallBar(){
-  sideBarPanel.classList.toggle('closeNavToSmall');
-}
-
-const links = document.querySelectorAll(".active");
-links.forEach(link =>{
-  link.addEventListener('click', ()=>{
-    document.querySelector('.actives')?.classList.remove('actives');
-    link.classList.add('actives');
-  });
-});
-
-
-function lightMode(){
-  headNav.style.backgroundColor = "lightGrey";
-  navList.style.backgroundColor = "white";
-  information.style.backgroundColor = "white";
-  mineContent.style.backgroundColor = "lightGrey";
-}
-
-
-
-</script>
 
 
 
